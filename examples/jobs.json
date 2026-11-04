@@ -1,0 +1,16 @@
+{
+  "jobs": [
+    {
+      "name": "hourly-import",
+      "intervalMinutes": 60,
+      "graceMinutes": 10,
+      "lastSuccess": "2026-11-05T11:15:00Z"
+    },
+    {
+      "name": "notification-worker",
+      "intervalMinutes": 15,
+      "graceMinutes": 5,
+      "lastSuccess": "2026-11-05T11:40:00Z"
+    }
+  ]
+}
