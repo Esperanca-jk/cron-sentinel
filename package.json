@@ -1,0 +1,17 @@
+{
+  "name": "cron-sentinel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline heartbeat freshness checks for scheduled jobs",
+  "bin": {
+    "cron-sentinel": "./src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
