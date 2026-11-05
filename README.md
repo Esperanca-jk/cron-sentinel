@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/cover.svg" alt="cron-sentinel project overview" width="100%"></p>
+
 # cron-sentinel
 
 Check whether scheduled jobs are still reporting successful runs. No monitoring server, external API, or background daemon required.
@@ -46,3 +48,8 @@ No GitHub Actions workflows are included or enabled.
 Do not put access tokens in the input JSON. Timestamp data stays local. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 [MIT License](LICENSE).
+
+
+---
+
+**Related tool:** [privacy-log](https://github.com/Esperanca-jk/privacy-log) — redact secrets before sharing job logs.
